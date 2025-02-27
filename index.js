@@ -31,6 +31,5 @@ function generateTable() {
   tbl.appendChild(tblBody);
   const divtable = document.getElementById('table');
   divtable.appendChild(tbl) 
-//  tbl.setAttribute("border", "2");
 }
 generateTable()
