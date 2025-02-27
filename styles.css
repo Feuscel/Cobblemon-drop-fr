@@ -12,7 +12,8 @@ body{
 
 .table_component {
     overflow: auto;
-    width: 100%;
+    width: 75%;
+    padding-left: 15%;
 }
 
 .table_component table {
