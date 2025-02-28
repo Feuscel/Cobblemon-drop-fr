@@ -14,7 +14,7 @@ function generateTable() {
   }
   tblHead.appendChild(rowini);
 
-  for (let i = 1; i < pokemonData.length; i++) {
+  for (let i = 0; i < pokemonData.length; i++) {
     const row = document.createElement("tr");
     const obj = pokemonData[i];
     for (var key in obj) {
